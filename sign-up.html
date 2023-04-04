@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Sign-up</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <script src="script.js" defer></script>
+
+  </head>
+  <body>
+    <div class="side-bar">
+
+        <div class="banner">
+          <img src="assets/odin-lined.png" alt="">
+          <h1>ODIN</h1>
+
+      </div>
+    </div>
+    <div class="second-box">
+      <div class="hero">
+        <h2>Here we store a reference to the email input, add an <br>event listener to it that runs the contained code each time.</h2>
+        <h2>You can try it out below:</h2>
+      </div>
+      <div class="form-box">
+        <h2>Let's do this!</h2>
+        <form action="" id="sign-up-form">
+          <div class="form-column">
+            <div>
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" name="user_first_name">
+            </div>
+            <div>
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div id="passwords-dont-match">
+              <label for="password">PASSWORD</label>
+              <input  type="password" id="password" name="password">
+            </div>
+          </div>
+          <div class="form-column">
+            <div>
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" name="user_last_name">
+            </div>
+            <div>
+              <label for="tel">PHONE NUMBER</label>
+              <input type="tel" id="tel" name="phone_number">
+            </div>
+            <div>
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input  type="password" id="confirm-password" name="confirm_password">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="submit-box">
+        <button id="btn" type="sumbit" form="sign-up-form">Create Account</button>
+        <h3>Already have an account? <a href="#">Log in</a></h3>
+      </div>
+    </div>
+  </body>
+</html>
